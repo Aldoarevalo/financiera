@@ -1,0 +1,385 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+		
+	</head>
+
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="view_header" data-itemid="view_header" {$item_view_header} data-pageid="{$pageid}" >{$pagetitlelabel public_ordendeserviciodetalle view}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN nroorden_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_nroorden}  r-vertical-field" data-fieldname="nroorden" data-signal-error-for="nroorden{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field} data-pageid="{$pageid}" data-field="nroorden" data-fieldname="nroorden" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_nroorden}">
+		
+		{BEGIN nroorden_label}{$label public_ordendeserviciodetalle nroorden }{END nroorden_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$nroorden_value}	</div>
+
+		
+</div>
+
+
+{END nroorden_fieldblock}
+											
+{BEGIN nroitemlote_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_nroitemlote}  r-vertical-field" data-fieldname="nroitemlote" data-signal-error-for="nroitemlote{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1} data-pageid="{$pageid}" data-field="nroitemlote" data-fieldname="nroitemlote" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_nroitemlote}">
+		
+		{BEGIN nroitemlote_label}{$label public_ordendeserviciodetalle nroitemlote }{END nroitemlote_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$nroitemlote_value}	</div>
+
+		
+</div>
+
+
+{END nroitemlote_fieldblock}
+											
+{BEGIN ummedia_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_ummedia}  r-vertical-field" data-fieldname="ummedia" data-signal-error-for="ummedia{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field3" {$item_integrated_edit_field3} data-pageid="{$pageid}" data-field="ummedia" data-fieldname="ummedia" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_ummedia}">
+		
+		{BEGIN ummedia_label}{$label public_ordendeserviciodetalle ummedia }{END ummedia_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$ummedia_value}	</div>
+
+		
+</div>
+
+
+{END ummedia_fieldblock}
+											
+{BEGIN marca_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_marca}  r-vertical-field" data-fieldname="marca" data-signal-error-for="marca{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4} data-pageid="{$pageid}" data-field="marca" data-fieldname="marca" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_marca}">
+		
+		{BEGIN marca_label}{$label public_ordendeserviciodetalle marca }{END marca_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$marca_value}	</div>
+
+		
+</div>
+
+
+{END marca_fieldblock}
+											
+{BEGIN cantidad_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cantidad}  r-vertical-field" data-fieldname="cantidad" data-signal-error-for="cantidad{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field5" {$item_integrated_edit_field5} data-pageid="{$pageid}" data-field="cantidad" data-fieldname="cantidad" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_cantidad}">
+		
+		{BEGIN cantidad_label}{$label public_ordendeserviciodetalle cantidad }{END cantidad_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$cantidad_value}	</div>
+
+		
+</div>
+
+
+{END cantidad_fieldblock}
+											
+{BEGIN preciounitario_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_preciounitario}  r-vertical-field" data-fieldname="preciounitario" data-signal-error-for="preciounitario{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field6" {$item_integrated_edit_field6} data-pageid="{$pageid}" data-field="preciounitario" data-fieldname="preciounitario" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_preciounitario}">
+		
+		{BEGIN preciounitario_label}{$label public_ordendeserviciodetalle preciounitario }{END preciounitario_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$preciounitario_value}	</div>
+
+		
+</div>
+
+
+{END preciounitario_fieldblock}
+											
+{BEGIN grabadas_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_grabadas}  r-vertical-field" data-fieldname="grabadas" data-signal-error-for="grabadas{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field7" {$item_integrated_edit_field7} data-pageid="{$pageid}" data-field="grabadas" data-fieldname="grabadas" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_grabadas}">
+		
+		{BEGIN grabadas_label}{$label public_ordendeserviciodetalle grabadas }{END grabadas_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$grabadas_value}	</div>
+
+		
+</div>
+
+
+{END grabadas_fieldblock}
+											
+{BEGIN exentas_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_exentas}  r-vertical-field" data-fieldname="exentas" data-signal-error-for="exentas{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8} data-pageid="{$pageid}" data-field="exentas" data-fieldname="exentas" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_exentas}">
+		
+		{BEGIN exentas_label}{$label public_ordendeserviciodetalle exentas }{END exentas_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$exentas_value}	</div>
+
+		
+</div>
+
+
+{END exentas_fieldblock}
+											
+{BEGIN 5__fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_5_}  r-vertical-field" data-fieldname="5%" data-signal-error-for="5_{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field9" {$item_integrated_edit_field9} data-pageid="{$pageid}" data-field="5_" data-fieldname="5%" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_5_}">
+		
+		{BEGIN 5__label}{$label public_ordendeserviciodetalle 5_ }{END 5__label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$5__value}	</div>
+
+		
+</div>
+
+
+{END 5__fieldblock}
+											
+{BEGIN 10__fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_10_}  r-vertical-field" data-fieldname="10%" data-signal-error-for="10_{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field10" {$item_integrated_edit_field10} data-pageid="{$pageid}" data-field="10_" data-fieldname="10%" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_10_}">
+		
+		{BEGIN 10__label}{$label public_ordendeserviciodetalle 10_ }{END 10__label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$10__value}	</div>
+
+		
+</div>
+
+
+{END 10__fieldblock}
+											
+{BEGIN idbienservicio_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_idbienservicio}  r-vertical-field" data-fieldname="idbienservicio" data-signal-error-for="idbienservicio{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2} data-pageid="{$pageid}" data-field="idbienservicio" data-fieldname="idbienservicio" >
+
+	
+	<label class="col-md-offset-3 col-md-6" for="{$labelfor_idbienservicio}">
+		
+		{BEGIN idbienservicio_label}{$label public_ordendeserviciodetalle idbienservicio }{END idbienservicio_label}
+	</label>
+	<div class="col-md-offset-3 col-md-6" >
+		{$idbienservicio_value}	</div>
+
+		
+</div>
+
+
+{END idbienservicio_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-6
+	">
+	 
+		{BEGIN back_button}
+<span data-itemtype="view_back_list" data-itemid="view_back_list" {$item_view_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN close_button}
+<span data-itemtype="view_close" data-itemid="view_close" {$item_view_close} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" href="#" {$closebutton_attrs} >
+							Cerrar ventana			</a>
+</span>
+{END close_button}
+	</div>			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="{$pageid}"	{$cell_below-grid_c2}
+	class="r-align-right r-ori-vert			col-md-6
+	">
+	 
+		<span data-itemtype="hamburger" data-itemid="hamburger" {$item_hamburger} data-pageid="{$pageid}" data-small data-button-item>
+	<span class="dropdown dropup">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+										<span class="glyphicon glyphicon-menu-hamburger"></span>
+												<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+							{BEGIN edit_page_button}
+	<li data-itemtype="view_edit" data-itemid="view_edit" {$item_view_edit} data-pageid="{$pageid}" data-small >
+				<a  href="ordendeserviciodetalle_edit.php?{$editlink}" {$edit_page_button_attrs}  title="" >
+				
+		Editar		
+		</a>
+	</li>
+{END edit_page_button}
+								<li data-itemtype="view_pdf" data-itemid="view_pdf" {$item_view_pdf} data-pageid="{$pageid}" data-small >
+				<a class="pdflink" data-pdfpage="view" 
+data-scope="0" 
+data-split="0" 
+data-records="10" 
+data-orientation="portrait" 
+data-scale="100" 
+data-filename="Ordendeserviciodetalle.pdf" 
+data-pagetype="view" 
+{$pdflink_attrs}  title="" >
+				
+		Vista PDF		
+		</a>
+	</li>
+					</ul>
+	</span>
+</span>
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>
